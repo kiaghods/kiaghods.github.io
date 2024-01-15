@@ -52,21 +52,27 @@ section {
 }
 
 .user-projects:nth-child(even) .project-content {
-  order: 1; 
+  order: 2; 
 }
 
 .user-projects:nth-child(even) .project-image {
-  order: -1; 
+  order: 1; 
 }
 
 
 .project-image {
-  flex: 1;
   margin-right: 20px;
 }
 
-.project-content {
+.project-image, .project-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.project-content {
+  text-align: center; 
 }
 
 .project-image img {
@@ -76,6 +82,8 @@ section {
   max-height: 350px; 
   height: auto; 
   width: auto; 
+  display: block;
+  margin: 0 auto;
 }
 
 #particles-container {
@@ -210,4 +218,12 @@ html {
   margin-bottom: 1em; 
 }
 
+@media (max-width: 768px) {
+  .user-projects {
+    flex-direction: column;
+  }
 
+  .project-content, .project-image {
+    width: 100%;
+  }
+}
