@@ -1,0 +1,213 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  margin-bottom: 2em;
+}
+
+.site-title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.site-description {
+  font-size: 1.5em;
+}
+
+.header-icons a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 50px;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.user-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-projects:nth-child(even) .project-content {
+  order: 1; 
+}
+
+.user-projects:nth-child(even) .project-image {
+  order: -1; 
+}
+
+
+.project-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-image img {
+  border-style: solid;
+  border-width: 0.5px;
+  max-width: 100%; 
+  max-height: 350px; 
+  height: auto; 
+  width: auto; 
+}
+
+#particles-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#about, #projects {
+  margin-top: 0;
+  font-family: 'League Spartan', sans-serif;
+}
+
+#about h2, #projects h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+#about p {
+  font-size: 1.2em;
+  max-width: 50ch; 
+  margin-bottom: 1em; 
+  text-align: justify; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
+.header, #navigation-container a {
+  font-family: 'League Spartan', sans-serif; 
+  color: #fff; 
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.about-me-image {
+  max-width: 225px;
+  width: 100%;
+  height: auto;
+}
+
+#navigation-container {
+  width: 100%;
+  text-align: center;
+  order: 2;
+}
+
+#navigation-container a {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  margin: 0.5em;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+}
+
+#navigation-container a:hover {
+  color: #ccc;
+}
+
+.project-link {
+  display: block;
+  padding: 10px 15px;
+  margin-top: 10px; 
+  background-color: white;
+  color: darkblue;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid darkblue;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.project-link:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.user-projects h3 {
+  font-size: 1.8em; 
+  margin-top: 0.5em; 
+  margin-bottom: 0.5em; 
+}
+
+.user-projects ul {
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.user-projects li {
+  list-style-type: none; 
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.user-projects li::before {
+  content: '• '; 
+  color: black; 
+}
+
+.user-projects p {
+  font-size: 1.1em;
+  max-width: 60ch;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: justify; 
+}
+
+.user-projects .project-link {
+  margin-top: 1em; 
+}
+
+.user-projects .project-image {
+  margin-bottom: 1em; 
+}
+
+

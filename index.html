@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="particles-container">
+    <div id="animation-container">
+        <div class="header">
+            <h1>
+                <span class="site-title">Kia Ghods</span>
+                <div class="site-description">Undergrad @ Princeton</div>    
+            </h1>
+            <div class="header-icons">
+                <a aria-label="Send email" href="mailto:kia.ghods@princeton.edu"><i class="icon fa fa-envelope"></i></a>
+                <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/kia-ghods/"><i class="icon fab fa-linkedin" aria-hidden="true"></i></a>
+                <a aria-label="My Github" target="_blank" href="https://github.com/kiaghods"><i class="icon fab fa-github" aria-hidden="true"></i></a>
+                <a aria-label="My Resume" target="_blank" href="resume/Ghods,Kia_Resume.pdf"><i class="icon fa fa-file" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div id="navigation-container">
+          <a href="#about">About Me</a>
+          <a href="#projects">Projects</a>
+        </div>
+        <script src="js/particle.js"></script>
+        <script src="js/sketch.js"></script>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <section id="about">
+      <h2>About Me</h2>
+      <img src="images/KG_DrawnImage.png" alt="Kia Ghods" class="about-me-image">
+      <p> Hello! My name is Kia, and I'm an undergrad at Princeton from South Florida studying Math and Computer Science. I enjoy working on projects that use mathematical models to better understand the biological world. Outside of academics, I enjoy writing, reading dystopians, biking and playing basketball, meeting new people, and teaching and mentoring. </p>
+  </section>
+
+  <section id="projects">
+      <h2>Projects</h2>
+      <div class="user-projects">
+        <div class="project-image">
+          <img alt="Monte Carlo Simulations Figure" src="images/MBE_Paper_Figure.jpeg"/>
+        </div>
+        <div class="project-content">
+          <h3>Mathematical Modeling of HIV and Protein Interactions</h3>
+          <ul>
+            <li>Skills: MATLAB, Mathematica</li>
+          </ul>
+          <p>Human immunodeficiency virus (HIV) infection is a major public health concern with 1.2 million people living with HIV in the United States. The role of nutrition in general, and albumin/globulin in particular in HIV progression has long been recognized. However, no mathematical models exist to describe the interplay between HIV and albumin/globulin. Throughout this project, I collaborated with a team at Florida Atlantic University and University of Florida, where I worked on developing a set of ordinary differential equations describing these interactions, selected the best model from the set using the Akaike Information Criterion (AIC), and conducted identifiability analysis on the model. </p>
+          <div class="project-links">
+            <a href="https://www.aimspress.com/article/doi/10.3934/mbe.2023865" target="_blank" class="project-link">Publication</a>
+            <a href="https://www.youtube.com/watch?v=iCQo-TN3kDI" target="_blank" class="project-link">Presentation @ 2022 Johns Hopkins Global Health Leadership Conference</a>
+          </div>    
+        </div>    
+      </div>
+      
+      <div class="user-projects">
+        <div class="project-content">
+          <h3>Expansion of Inforna + Development of Covalent Binders of c-Myc mRNA</h3>
+          <ul>
+            <li> Technical Skills: Python, Unix </li>
+            <li> Lab Skills: Cell Culture, Chem-CLIP, Compound Mining and Treatment, Organic Synthesis, Liquid Chromatography Mass Spectrometer (LCMS), High-Performance Liquid Chromatography (HPLC)</li>
+          </ul>
+          <p>Throughout my senior year of high school, I worked as a research intern at The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology in Dr. Matthew Disney’s lab in the Department of Chemistry. During that period, I worked on a variety of projects, both computational and wet lab. Particularly, I would like to highlight my work expanding Inforna - a database matching small molecules to RNA secondary structural motifs - to include 194 new molecules and 82 new motifs. Further, during the latter half of my time in the lab, I spent significant time working on the synthesis of covalent binders that targeted c-Myc, the mRNA encoding for MYC protein, which is a transcription factor over expressed in greater than 70% of human cancers. The abstract for the c-Myc project and my presentation slide are available below.</p>
+          <div class="project-links">
+            <a href="research_materials/DisneyLab_Abstract_KG.pdf" target="_blank" class="project-link">Abstract</a>
+            <a href="research_materials/KiaGhods_3MT_Slide.pdf" target="_blank" class="project-link">Presentation Slide</a>
+          </div>    
+        </div>
+        <div class="project-image">
+          <img alt="InfoRNA" src="images/Scripps_Research.jpeg"/>
+        </div>
+      </div>
+      
+      <div class="user-projects">
+        <div class="project-image">
+          <img alt="SIBDS Group Image" src="images/SIBDS.jpeg"/>
+        </div>
+        <div class="project-content">
+          <h3>NIH Summer Institute in Biostatistics & Data Science</h3>
+          <ul>
+            <li>Machine Learning, TensorFlow, Python R, SAS</li>
+          </ul>
+          <p>In the summer of 2022, I was an REU intern as part of the Florida Summer Institute in Biostatistics and Data Science. With Professor Motta, I worked on developing a supervised machine learning model that would automate the prediction of the location of DNA transcription factors given an input sequence. Further, I was exposed to a whole host of prediction models, ultimately presenting on the efficacy of various prediction models for college success given high school data. </p>
+        </div>
+      </div>
+  </section>
+
+</body>
+</html>
