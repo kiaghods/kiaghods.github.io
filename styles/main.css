@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Define CSS variables */
 :root {
-    --background-color: #1a1a1a;
+    --background-color: #040404;
     --text-color: #f0f0f0;
     --header-footer-bg: #333333;
     --header-footer-text: #f4f4f4;
-    --card-bg: #444444;
-    --card-hover-bg: #555555;
+    --card-bg: rgba(68, 68, 68, 0.7); /* More translucent gray */
+    --card-hover-bg: rgba(85, 85, 85, 0.7); /* More translucent darker gray */
     --card-border-radius: 15px;
     --subtitle-color: #aaaaaa;
     --email-color: #aaaaaa;
@@ -13,22 +15,84 @@
     --link-color: #aaaaaa;
     --link-hover-color: #f4f4f4;
     --trademark-color: #888888;
+    --card-glow: rgba(255, 255, 255, 0.669);
+
+    --blob-size: 200px;
+    --blob-blur: 200px;
+    --blob-opacity: 0.7;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 20px;
     line-height: 1.6;
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
+    overflow-x: hidden;
+}
+
+.blob-container-top {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: var(--blob-size);
+    z-index: -1;
+}
+
+.blob-container-bottom {
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    width: 100%;
+    height: var(--blob-size);
+    z-index: -1;
+    transform: scale(-1);
+}
+
+.blob {
+    width: var(--blob-size);
+    height: var(--blob-size);
+    border-radius: 50%;
+    filter: blur(var(--blob-blur));
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+    opacity: var(--blob-opacity);
+}
+
+.blob-1 {
+    background: #8ecae6;
+    left: -10vw;
+}
+
+.blob-2 {
+    background: #219ebc;
+    left: 10vw;
+}
+
+.blob-3 {
+    background: #023047;
+    left: 30vw;
+}
+
+.blob-4 {
+    background: #ffb703;
+    left: 50vw;
+}
+
+.blob-5 {
+    background: #fb8500;
+    left: 70vw;
 }
 
 .intro {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    justify-content: flex-start;
 }
 
 .profile-pic {
@@ -81,38 +145,44 @@ main {
     position: relative;
     opacity: 0;
     animation: fadeIn 0.5s forwards;
-    height: 300px; /* Ensures consistent height */
+    height: 280px; /* Ensures consistent height */
 }
 
 .project-card img {
     width: 100%;
-    height: 150px;
+    height: 180px; /* Increased image height to show more */
     object-fit: cover;
     border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
 }
 
 .project-details {
-    padding: 5px 10px 10px 10px;
+    padding: 10px 20px; /* Reduced top padding */
     text-align: center;
+    border-radius: 0 0 var(--card-border-radius) var(--card-border-radius);
     flex-grow: 1; /* Ensures the details section takes up the remaining space */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers the text vertically */
+    text-align: left;
+    background: rgba(0, 0, 0, 0.5); /* Added translucence to text card */
+    height: 80px; /* Reduced height of the gray box */
+    line-height: 1.25;
 }
 
 .project-details h3 {
-    margin: 10px 0 5px 0;
+    margin: 5px 0 5px 0; /* Reduced top margin */
     font-size: 18px;
 }
 
 .project-details p {
     margin: 0;
     font-size: 14px;
+    color:rgb(174, 174, 174)
 }
 
 .project-card:hover {
     background-color: var(--card-hover-bg);
     transform: translateY(-5px);
+    box-shadow: 0 0 10px var(--card-glow); /* Added glow effect on hover */
 }
 
 .social-icons {
@@ -260,4 +330,10 @@ main {
 .references a:hover, #description a:hover {
     color: var(--link-hover-color);
     text-shadow: 0 0 8px var(--link-hover-color);
+}
+
+@media (min-width: 1200px) {
+    .intro {
+        margin-left: calc((100% - 1200px) / 2); /* Adjust margin to align with the project grid */
+    }
 }
