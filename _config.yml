@@ -157,6 +157,13 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+  toc_levels: 1..6
+
+# TOC settings
+toc:
+  title: "Table of Contents"
+  ordered_list: true
+  base_url: "#"
 
 # Includes & excludes
 include: ["_pages", "_scripts"]
