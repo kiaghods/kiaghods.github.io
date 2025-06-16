@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/academics";
           },
-        },{id: "post-",
+        },{id: "post-equivariance-and-symmetry-behind-neural-networks",
         
-          title: "",
+          title: "Equivariance and Symmetry behind Neural Networks",
         
-        description: "",
+        description: "How symmetry powers the success of convolutional neural networks.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-06-08-algml/";
+            window.location.href = "/blog/2025/algml/";
           
         },
       },{id: "post-on-the-question-of-values",
