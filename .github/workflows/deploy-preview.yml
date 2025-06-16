@@ -1,0 +1,49 @@
+name: Deploy Preview Draft
+
+on:
+  push:
+    branches:
+      - 'algml' 
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the code from your branch
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Step 2: Set up GitHub Pages
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      # Step 3: Build the Jekyll site
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      # Step 4: Upload the built site as an artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    
+    # Grant permissions for the action to deploy to GitHub Pages
+    permissions:
+      pages: write
+      id-token: write
+      
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
+    steps:
+      # Step 5: Deploy the artifact to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
