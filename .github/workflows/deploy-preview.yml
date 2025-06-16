@@ -1,49 +1,52 @@
-name: Deploy Preview Draft
+# .github/workflows/preview-deploy.yml
+
+name: Deploy Preview Draft to Branch
 
 on:
   push:
     branches:
-      - 'algml' 
-
+      - 'algml'
 jobs:
-  build-and-deploy:
+  deploy-preview:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Check out the code from your branch
-      - name: Checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
-
-      # Step 2: Set up GitHub Pages
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
-
-      # Step 3: Build the Jekyll site
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+        
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
         with:
-          source: ./
-          destination: ./_site
-
-      # Step 4: Upload the built site as an artifact
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-
-  deploy:
-    needs: build-and-deploy
-    runs-on: ubuntu-latest
-    
-    # Grant permissions for the action to deploy to GitHub Pages
-    permissions:
-      pages: write
-      id-token: write
-      
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-      
-    steps:
-      # Step 5: Deploy the artifact to GitHub Pages
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          ruby-version: "3.4.4" 
+          bundler-cache: true
+          
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13" 
+          cache: "pip"
+          
+      - name: Update _config.yml for Giscus ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
+          
+      - name: Install and Build 🔧
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+          
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+          
+      - name: Deploy Preview to 'preview-draft' branch 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: preview-draft 
+          folder: _site 
