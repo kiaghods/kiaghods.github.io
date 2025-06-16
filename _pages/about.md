@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year undergraduate at <a href="https://www.princeton.edu/">Princeton University </a>, studying cs + math. I am broadly interested in the intersection of machine learning, mathematics, and cognitive science. 
+I am a second-year undergraduate at <a href="https://www.princeton.edu/">Princeton University </a>, studying cs + math. I am broadly interested in the intersection of machine learning, cognitive science, and robotics. 
 
 I am a researcher in Princeton's <a href="https://pli.princeton.edu/"> Princeton Language and Intelligence Initiative </a>, where I work on mechanistic interpretability and alignment of large language models and vision-language models. I am advised by Professors <a href="https://jdc.princeton.edu/"> Jon Cohen </a> and <a href="https://cocosci.princeton.edu/tom/index.php"> Tom Griffiths </a>.
 
