@@ -17,10 +17,13 @@ horizontal: false
 <h4>ai/ml</h4>
 <ul>
 <li> 
-        <strong>[Re]FlashAttention</strong> - Triton Implementation of FlashAttention1 with MQA <a href="https://github.com/kiaghods/FlashAttentionTriton_NLP"><i class="fa fa-github" style="font-size:18px"></i></a> [<a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttention.pdf" target="_blank">White Paper</a>]
+        <strong>[Re]FlashAttention</strong> - Triton Implementation of FlashAttention1 with MQA <a href="https://github.com/kiaghods/FlashAttentionTriton_NLP"><i class="fa fa-github" style="font-size:18px"></i></a> [<a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttention.pdf" target="_blank">White Paper</a>] [<a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttentionPoster.pdf" target="_blank">Poster</a>]
 </li>
 <li>
         <strong>Propagation of In-Context Scheming in Multi-Agent Systems</strong> - Designed experiments to measure how corrupted instructions spread through networks of language models, demonstrating vulnerability of small models to influence from both peers and higher-capability models. Awarded 2nd place at Anthropic Alignment Hackathon (2025).
+</li>
+<li>
+         <strong>Astralis</strong> - Contributed to an early-stage startup using AI and geospatial data to optimize real estate development and demand forecasting. Built intelligent document ingestion pipelines (RAG) using Python, LLMs, and ML clustering with automated metrics and async workflows for scalable content organization. <a href="https://github.com/pranav270-create/ingest" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" style="font-size:18px"></i></a> <a href="https://www.astralis.sh/" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link" style="font-size:18px"></i></a>
 </li>
 <li>
         <strong>SearchDestroy</strong> - Robust multi-drone search algorithm (DARP + heuristics) for area sweeping, handling drone loss and online path re-computation. Physics simulation & visualization using AirSim. Awarded 2nd place (100+ participants) at AGI House Robotics Hackathon (2024). <a href="https://github.com/Astoria-ni/drone-hackathon"><i class="fa fa-github" style="font-size:18px"></i></a>
