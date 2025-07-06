@@ -27,9 +27,9 @@ latest_posts:
 
 I am a rising third-year undergraduate at <a href="https://www.princeton.edu/">Princeton University </a>, studying cs + math. I am broadly interested in the intersection of machine learning, cognitive science, and robotics. 
 
-I am a researcher in Princeton's <a href="https://pli.princeton.edu/"> Princeton Language and Intelligence Initiative </a>, where I work on mechanistic interpretability of large language models and vision-language models. I am advised by Professors <a href="https://jdc.princeton.edu/"> Jon Cohen </a> and <a href="https://cocosci.princeton.edu/tom/index.php"> Tom Griffiths </a>.
+I am a researcher in the <a href="https://pli.princeton.edu/"> Princeton Language and Intelligence Initiative </a>, where I work on mechanistic interpretability of large language models and vision-language models in the <a href="https://ncclab.princeton.edu/"> Neuroscience of Cognitive Control Lab </a>. I am advised by Professors <a href="https://jdc.princeton.edu/"> Jon Cohen </a> and <a href="https://cocosci.princeton.edu/tom/index.php"> Tom Griffiths </a>.
 
-At Princeton, I am President of Princeton's <a href="https://princeton.acm.org/">ACM chapter</a>, Officer of <a href="https://www.aiatprinceton.com/aitt">AI@Princeton</a>, and a member/co-organizer of various machine learning related reading groups. I previously interned at Hillspire and have worked at early-stage startups (i.e., <a href="https://www.astralis.sh/">Astralis</a>).
+At Princeton, I am President of our <a href="https://princeton.acm.org/">ACM chapter</a>, Officer of <a href="https://www.aiatprinceton.com/aitt">AI@Princeton</a>, and a member/co-organizer of various machine learning related reading groups. I previously interned at Hillspire and have worked at early-stage startups (i.e., <a href="https://www.astralis.sh/">Astralis</a>).
 
 Outside of academics, I am an avid fan of both playing and watching basketball and tennis. I also enjoy reading and writing.
 
