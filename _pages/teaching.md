@@ -65,12 +65,24 @@ nav_order: 6
                 <td>Data Structures & Algorithms <span class="course-details">taught by Gillat Kol, Pedro Paredes, Mark Braverman</span></td>
             </tr>
             <tr>
+                <td><span class="course-code">COS 326</span></td>
+                <td>Functional Programming <span class="course-details">taught by David Walker</span></td>
+            </tr>
+            <tr>
                 <td><span class="course-code">COS 350</span></td>
                 <td>Ethics of Computing <span class="course-details">taught by Aleksandra Korolova</span></td>
             </tr>
             <tr>
+                <td><span class="course-code">COS 375</span></td>
+                <td>Computer Architecture and Organization <span class="course-details">taught by David August, Margaret Martonosi</span></td>
+            </tr>
+            <tr>
                 <td><span class="course-code">COS 423</span></td>
                 <td>Theory of Algorithms <span class="course-details">taught by Bob Tarjan</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">COS 487</span></td>
+                <td>Theory of Computation <span class="course-details">taught by Gillat Kol</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 484</span></td>
@@ -81,13 +93,22 @@ nav_order: 6
                 <td>Computational Complexity <span class="course-details">taught by Gillat Kol</span></td>
             </tr>
             <tr>
+                <td><span class="course-code">COS 585*</span></td>
+                <td>Information Theory and Applications <span class="course-details">taught by Ran Raz</span></td>
+            </tr>
+            <tr>
                 <td><span class="course-code">COS 598A*</span></td>
-                <td>AI Safety & Alignment (sat-in) <span class="course-details">taught by Peter Henderson</span></td>
+                <td>AI Safety & Alignment [sat-in] <span class="course-details">taught by Peter Henderson</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 598B*</span></td>
                 <td>Machine Behavior <span class="course-details">taught by Manoel Horta Ribeiro</span></td>
             </tr>
+            <tr>
+                <td><span class="course-code">ECE 531*</span></td>
+                <td>Robot Planning Meets Machine Learning <span class="course-details">taught by Tom Silver</span></td>
+            </tr>
+
 
             <tr>
                 <td colspan="2"><h2>mathematics</h2></td>
@@ -107,6 +128,10 @@ nav_order: 6
             <tr>
                 <td><span class="course-code">MAT 345</span></td>
                 <td>Abstract Algebra <span class="course-details">taught by Jakub Witaszek</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">MAT 365</span></td>
+                <td>Topology <span class="course-details">taught by Zoltán Szabó</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">ORF 309</span></td>
