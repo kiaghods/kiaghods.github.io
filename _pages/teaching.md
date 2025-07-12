@@ -81,12 +81,12 @@ nav_order: 6
                 <td>Theory of Algorithms <span class="course-details">taught by Bob Tarjan</span></td>
             </tr>
             <tr>
-                <td><span class="course-code">COS 487</span></td>
-                <td>Theory of Computation <span class="course-details">taught by Gillat Kol</span></td>
-            </tr>
-            <tr>
                 <td><span class="course-code">COS 484</span></td>
                 <td>Natural Language Processing <span class="course-details">taught by Danqi Chen, Tri Dao, Vikram Ramaswamy</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">COS 487</span></td>
+                <td>Theory of Computation <span class="course-details">taught by Gillat Kol</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 522*</span></td>
