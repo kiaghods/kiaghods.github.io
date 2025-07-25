@@ -31,6 +31,4 @@ I am a researcher in the <a href="https://pli.princeton.edu/"> Princeton Languag
 
 At Princeton, I am Chair of our <a href="https://princeton.acm.org/">ACM chapter</a> and help host a few machine learning reading groups. I previously interned at Hillspire and have worked at early-stage startups (e.g., <a href="https://www.astralis.sh/">Astralis</a>).
 
-<!-- Otherwise, I enjoy reading classics, studying Persian, and obsessing over basketball, UFC, and anything statistical. Thanks you ahfsldfaklsjdlkfs  -->
-
 You can reach me at `[x] at princeton dot edu` where `[x] = kia.ghods`.
