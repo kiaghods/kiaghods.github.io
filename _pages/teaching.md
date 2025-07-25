@@ -9,7 +9,7 @@ nav_order: 6
 
 <section style="width:100%;max-width:800px;margin:auto;">
     <p>
-        Cool courses that I have taken at Princeton University. <span style="font-style: italic;">* denotes graduate courses</span>.
+        cool courses that I have taken at Princeton. <span style="font-style: italic;">* denotes graduate courses</span>.
     </p>
 
     <style>
@@ -63,10 +63,6 @@ nav_order: 6
             <tr>
                 <td><span class="course-code">COS 226</span></td>
                 <td>Data Structures & Algorithms <span class="course-details">taught by Gillat Kol, Pedro Paredes, Mark Braverman</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 326</span></td>
-                <td>Functional Programming <span class="course-details">taught by David Walker</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 350</span></td>
@@ -136,6 +132,10 @@ nav_order: 6
             <tr>
                 <td><span class="course-code">ORF 309</span></td>
                 <td>Probability and Stochastic Systems <span class="course-details">taught by Mark Cerenzia</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">APC 588*</span></td>
+                <td>Geometrical Tensor Calculus <span class="course-details">taught by Jeroen Tromp</span></td>
             </tr>
 
             <tr>
