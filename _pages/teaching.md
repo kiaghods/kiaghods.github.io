@@ -61,16 +61,16 @@ nav_order: 6
                 <td>Introduction to Computer Science <span class="course-details">taught by Kevin Wayne</span></td>
             </tr>
             <tr>
+                <td><span class="course-code">COS 217</span></td>
+                <td>Programming Systems <span class="course-details">taught by JP Singh</span></td>
+            </tr>
+            <tr>
                 <td><span class="course-code">COS 226</span></td>
                 <td>Data Structures & Algorithms <span class="course-details">taught by Gillat Kol, Pedro Paredes, Mark Braverman</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 350</span></td>
                 <td>Ethics of Computing <span class="course-details">taught by Aleksandra Korolova</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 375</span></td>
-                <td>Computer Architecture and Organization <span class="course-details">taught by David August, Margaret Martonosi</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 423</span></td>
@@ -118,16 +118,16 @@ nav_order: 6
                 <td>Honors Linear Algebra <span class="course-details">taught by Jakub Witaszek</span></td>
             </tr>
             <tr>
+                <td><span class="course-code">MAT 321</span></td>
+                <td>Numerical Analysis and Scientific Computing <span class="course-details">taught by Marc Aurèle Gilles</span></td>
+            </tr>
+            <tr>
                 <td><span class="course-code">MAT 322</span></td>
                 <td>Honors Differential Equations <span class="course-details">taught by Hans Emil Oscar Mickelin</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">MAT 345</span></td>
                 <td>Abstract Algebra <span class="course-details">taught by Jakub Witaszek</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">MAT 365</span></td>
-                <td>Topology <span class="course-details">taught by Zoltán Szabó</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">ORF 309</span></td>
