@@ -163,7 +163,7 @@ nav_order: 6
             </tr>
             <tr>
                 <td><span class="course-code">COS 226</span></td>
-                <td>Data Structures & Algorithms <span class="course-details">spring 2025</span></td>
+                <td>Data Structures & Algorithms <span class="course-details">spring 2025, fall 2025</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">MAT 217</span></td>
