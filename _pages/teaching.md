@@ -101,8 +101,8 @@ nav_order: 6
                 <td>Machine Behavior <span class="course-details">taught by Manoel Horta Ribeiro</span></td>
             </tr>
             <tr>
-                <td><span class="course-code">ECE 531*</span></td>
-                <td>Robot Planning Meets Machine Learning <span class="course-details">taught by Tom Silver</span></td>
+                <td><span class="course-code">ECE 524*</span></td>
+                <td>Foundations of Reinforcement Learning <span class="course-details">taught by Chi Jin</span></td>
             </tr>
 
 
