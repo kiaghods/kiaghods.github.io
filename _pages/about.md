@@ -32,7 +32,7 @@ some things I work on :
 
 * in-context learning, mech interp of llms and vlms @  <a href="https://pli.princeton.edu/">princeton language and intelligence</a>, advised by profs. jon cohen, tom griffiths
 
-* <a href="https://gradient.build/"> gradient </a>
+* $\nabla$ <a href="https://gradient.build/"> gradient </a>
 
 * co-pres. of our <a href="https://princeton.acm.org">acm chapter</a>, helping host a few machine learning reading groups (e.g., <a href="https://www.princetonalignment.org/">princeton ai alignment group</a>)
 
