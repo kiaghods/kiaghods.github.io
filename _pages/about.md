@@ -25,10 +25,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a rising junior at Princeton, studying cs + math. I am broadly interested in the intersection of machine learning, cognitive science, and robotics. 
+i am a junior at princeton, studying cs + math. 
 
-I am a researcher in the <a href="https://pli.princeton.edu/"> Princeton Language and Intelligence Initiative </a>, where I work on mechanistic interpretability of large language models and vision-language models under the <a href="https://ncclab.princeton.edu/"> Neuroscience of Cognitive Control Lab </a> with Professors <a href="https://jdc.princeton.edu/"> Jon Cohen </a> and <a href="https://cocosci.princeton.edu/tom/index.php"> Tom Griffiths</a>. I also work on planning and decision-making in autonomous agents with Professor <a href="https://tomsilver.github.io/">Tom Silver </a> in the <a href="https://prpl.group/">Princeton Robot Planning and Learning Lab</a>.
+some things I work on : 
+* language modeling, dynamical systems, spectral transformers @ <a href="https://www.minregret.com/">hazan minregret lab</a>, in collaboration with <a href="https://sites.google.com/view/gbrainprinceton/home">google deepmind princeton</a>, advised by prof. elad hazan
 
-At Princeton, I am Chair of our <a href="https://princeton.acm.org/">ACM chapter</a> and help host a few machine learning reading groups. I previously interned at Hillspire and have worked at early-stage startups (e.g., <a href="https://www.astralis.sh/">Astralis</a>).
+* in-context learning, mech interp of llms and vlms @  <a href="https://pli.princeton.edu/">princeton language and intelligence</a>, advised by profs. jon cohen, tom griffiths
 
-You can reach me at `[x] at princeton dot edu` where `[x] = kia.ghods`.
+* <a href="https://gradient.build/"> gradient </a>
+
+* co-pres. of our <a href="https://princeton.acm.org">acm chapter</a>, helping host a few machine learning reading groups (e.g., <a href="https://www.princetonalignment.org/">princeton ai alignment group</a>)
+
+prev: interned at hillspire; worked at early-stage startups (e.g., <a href="https://www.astralis.sh/">astralis</a>)
+
+contact: `[x] at princeton dot edu` where `[x] = kia.ghods`
