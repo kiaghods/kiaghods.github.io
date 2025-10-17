@@ -111,7 +111,7 @@ nav_order: 6
             </tr>
             <tr>
                 <td><span class="course-code">MAT 215</span></td>
-                <td>Real Analysis <span class="course-details">taught by Samuel Perez-Ayala, Charles Fefferman</span></td>
+                <td>Real Analysis <span class="course-details">taught by Samuel Pérez-Ayala, Charles Fefferman</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">MAT 217</span></td>
