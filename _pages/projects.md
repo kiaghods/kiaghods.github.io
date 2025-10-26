@@ -14,7 +14,7 @@ horizontal: false
 
 <div class="projects">
 
-<h4>mlsys + interp</h4>
+<h4>ml</h4>
 <ul>
 <li> 
         <strong>[Re]FlashAttention</strong> - Triton Implementation of FlashAttention1 with Multi-Query Attention (MQA). <a href="https://github.com/kiaghods/FlashAttentionTriton_NLP"><i class="fa fa-github" style="font-size:18px"></i></a> [<a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttention.pdf" target="_blank">White Paper</a>] [<a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttentionPoster.pdf" target="_blank">Poster</a>]
