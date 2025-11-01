@@ -74,7 +74,7 @@ nav_order: 6
             </tr>
             <tr>
                 <td><span class="course-code">COS 423</span></td>
-                <td>Theory of Algorithms <span class="course-details">taught by Bob Tarjan</span></td>
+                <td>Theory of Algorithms <span class="course-details">taught by Robert Tarjan</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 484</span></td>
@@ -135,7 +135,7 @@ nav_order: 6
             </tr>
             <tr>
                 <td><span class="course-code">APC 588*</span></td>
-                <td>Geometrical Tensor Calculus <span class="course-details">taught by Jeroen Tromp</span></td>
+                <td>Tensor Calculus <span class="course-details">taught by Jeroen Tromp</span></td>
             </tr>
 
             <tr>
