@@ -142,20 +142,20 @@ nav_order: 6
                 <td colspan="2"><h2>notable science and humanities</h2></td>
             </tr>
             <tr>
-                <td><span class="course-code">ECO 363</span></td>
-                <td>Corporate Finance & Financial Institutions <span class="course-details">taught by Ernest Liu</span></td>
-            </tr>
-            <tr>
                 <td><span class="course-code">NEU 437*</span></td>
                 <td>Systems Neuroscience <span class="course-details">taught by Carlos Brody</span></td>
             </tr>
             <tr>
-                <td><span class="course-code">PER 302</span></td>
-                <td>Advanced Persian Reading I <span class="course-details">taught by Amineh Mahallati</span></td>
-            </tr>
-            <tr>
                 <td><span class="course-code">PHY 105</span></td>
                 <td>Advanced Physics: Mechanics <span class="course-details">taught by Waseem Bakr</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">ECO 363</span></td>
+                <td>Corporate Finance & Financial Institutions <span class="course-details">taught by Ernest Liu</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">PER 302</span></td>
+                <td>Advanced Persian Reading I <span class="course-details">taught by Amineh Mahallati</span></td>
             </tr>
 
             <tr>
