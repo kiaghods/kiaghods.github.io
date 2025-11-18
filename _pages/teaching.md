@@ -62,7 +62,7 @@ nav_order: 6
             </tr>
             <tr>
                 <td><span class="course-code">COS 217</span></td>
-                <td>Programming Systems <span class="course-details">taught by JP Singh</span></td>
+                <td>Programming Systems <span class="course-details">taught by JP Singh, Christopher Moretti</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 226</span></td>
