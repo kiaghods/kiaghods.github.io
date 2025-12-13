@@ -34,7 +34,7 @@ horizontal: false
 <ul>
 
 <li>
- <strong>[Re]Spectral Methods</strong> Re-implementation of "A Fast and Well-Conditioned Spectral Method" (Olver and Townsend, 2013). <a href="https://github.com/kiaghods/spectral-method"><i class="fa fa-github" style="font-size:18px"></i></a> [<a href="https://kiaghods.com/assets/pdfs/[Re]SpectralMethod.pdf" target="_blank">White Paper</a>] 
+ <strong>[Re]Spectral Methods</strong> - An implementation of "A Fast and Well-Conditioned Spectral Method" (Olver and Townsend, 2013). <a href="https://github.com/kiaghods/spectral-method"><i class="fa fa-github" style="font-size:18px"></i></a> [<a href="https://kiaghods.com/assets/pdfs/[Re]SpectralMethod.pdf" target="_blank">White Paper</a>] 
 </li>
 
 <li>
