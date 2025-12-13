@@ -14,7 +14,7 @@ horizontal: false
 
 <div class="projects">
 
-<h4>ml</h4>
+<h4>some machine learning</h4>
 <ul>
 <li> 
         <strong>[Re]FlashAttention</strong> - Triton Implementation of FlashAttention1 with Multi-Query Attention (MQA). <a href="https://github.com/kiaghods/FlashAttentionTriton_NLP"><i class="fa fa-github" style="font-size:18px"></i></a> [<a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttention.pdf" target="_blank">White Paper</a>] [<a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttentionPoster.pdf" target="_blank">Poster</a>]
@@ -25,11 +25,24 @@ horizontal: false
 </li>
 
 <li>
-    <strong>Butterfly Matrix Kernel</strong> – Optimized implementation of butterfly matrix multiplication using Triton, enabling fast structured transforms for deep learning workloads (under construction 🚧). <a href="https://github.com/kiaghods/butterfly_matrix_kernel"><i class="fa fa-github" style="font-size:18px"></i></a>
+         <strong>Astralis</strong> - Contributed to an early-stage startup using AI and geospatial data to optimize real estate development and demand forecasting. Built intelligent document ingestion pipelines (RAG) using Python, LLMs, and ML clustering with automated metrics and async workflows for scalable content organization. <a href="https://github.com/pranav270-create/ingest" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" style="font-size:18px"></i></a> <a href="https://www.astralis.sh/" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link" style="font-size:18px"></i></a>
+</li>
+
+</ul>
+
+<h4>more kernels and numerics</h4>
+<ul>
+
+<li>
+ <strong>[Re]Spectral Methods</strong> Re-implementation of "A Fast and Well-Conditioned Spectral Method" (Olver and Townsend, 2013). <a href="https://github.com/kiaghods/spectral-method"><i class="fa fa-github" style="font-size:18px"></i></a> [<a href="https://kiaghods.com/assets/pdfs/[Re]SpectralMethod.pdf" target="_blank">White Paper</a>] 
 </li>
 
 <li>
-         <strong>Astralis</strong> - Contributed to an early-stage startup using AI and geospatial data to optimize real estate development and demand forecasting. Built intelligent document ingestion pipelines (RAG) using Python, LLMs, and ML clustering with automated metrics and async workflows for scalable content organization. <a href="https://github.com/pranav270-create/ingest" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" style="font-size:18px"></i></a> <a href="https://www.astralis.sh/" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link" style="font-size:18px"></i></a>
+ <strong> GPU MODE! </strong> - wrote some kernels in Triton for <a href="https://www.gpumode.com/v2/home" target="_blank">GPU MODE</a> competitions
+</li>
+
+<li>
+    <strong>Butterfly Matrix Kernel</strong> – Optimized implementation of butterfly matrix multiplication using Triton, enabling fast structured transforms for deep learning workloads. <a href="https://github.com/kiaghods/butterfly_matrix_kernel"><i class="fa fa-github" style="font-size:18px"></i></a>
 </li>
 
 </ul>
