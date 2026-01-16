@@ -8,8 +8,21 @@ nav_order: 6
 ---
 
 <section style="width:100%;max-width:800px;margin:auto;">
+    <h3>
+        honors
+    </h3>
+    <ul>
+        <li> Shapiro Prize for Academic Excellence (awarded to top 3% of underclassmen) </li>
+        <li> Tau Beta Pi (Early Inductee) </li>
+        <li> Neo Scholar Finalist </li>
+    </ul>
+
+    <h3> 
+        coursework
+    </h3>
+
     <p>
-        cool courses that I have taken at Princeton. <span style="font-style: italic;">* denotes graduate courses</span>.
+        cool courses that I have taken at Princeton. <span style="font-style: italic;">* denotes graduate courses</span>. <span style="font-style: italic;"> ‡ denotes courses currently enrolled in</span>.
     </p>
 
     <style>
@@ -73,8 +86,16 @@ nav_order: 6
                 <td>Ethics of Computing <span class="course-details">taught by Aleksandra Korolova</span></td>
             </tr>
             <tr>
+                <td><span class="course-code">COS 417‡</span></td>
+                <td>Operating Systems <span class="course-details">taught by Mae Milano, Kevin Negy</span></td>
+            </tr>
+            <tr>
                 <td><span class="course-code">COS 423</span></td>
                 <td>Theory of Algorithms <span class="course-details">taught by Robert Tarjan</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">ECE 432‡</span></td>
+                <td>Information Security <span class="course-details">taught by Prateek Mittal</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 484</span></td>
@@ -83,6 +104,10 @@ nav_order: 6
             <tr>
                 <td><span class="course-code">COS 487</span></td>
                 <td>Theory of Computation <span class="course-details">taught by Gillat Kol</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">COS 511*‡</span></td>
+                <td>Theoretical Machine Learning <span class="course-details">taught by Elad Hazan</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 522*</span></td>
@@ -132,6 +157,10 @@ nav_order: 6
             <tr>
                 <td><span class="course-code">ORF 309</span></td>
                 <td>Probability and Stochastic Systems <span class="course-details">taught by Mark Cerenzia</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">APC 571*‡</span></td>
+                <td>Applied Dynamical Systems <span class="course-details">taught by Clarence Rowley</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">APC 588*</span></td>
