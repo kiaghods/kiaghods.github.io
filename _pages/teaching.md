@@ -12,7 +12,7 @@ nav_order: 6
         honors
     </h3>
     <ul>
-        <li> Shapiro Prize for Academic Excellence (awarded to top 3% of underclassmen) </li>
+        <li> Shapiro Prize for Academic Excellence (top 3% of underclassmen) </li>
         <li> Tau Beta Pi (Early Inductee) </li>
         <li> Neo Scholar Finalist </li>
     </ul>
