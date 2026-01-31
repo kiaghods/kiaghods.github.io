@@ -94,12 +94,12 @@ nav_order: 6
                 <td>Theory of Algorithms <span class="course-details">taught by Robert Tarjan</span></td>
             </tr>
             <tr>
-                <td><span class="course-code">ECE 432‡</span></td>
-                <td>Information Security <span class="course-details">taught by Prateek Mittal</span></td>
-            </tr>
-            <tr>
                 <td><span class="course-code">COS 484</span></td>
                 <td>Natural Language Processing <span class="course-details">taught by Danqi Chen, Tri Dao, Vikram Ramaswamy</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">COS 486‡</span></td>
+                <td>Introduction to Brain Emulation <span class="course-details">taught by Sebastian Seung</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 487</span></td>
@@ -114,6 +114,10 @@ nav_order: 6
                 <td>Computational Complexity <span class="course-details">taught by Gillat Kol</span></td>
             </tr>
             <tr>
+                <td><span class="course-code">COS 568*‡</span></td>
+                <td>Systems and Machine Learning <span class="course-details">taught by Kai Li</span></td>
+            </tr>
+            <tr>
                 <td><span class="course-code">COS 585*</span></td>
                 <td>Information Theory and Applications <span class="course-details">taught by Ran Raz</span></td>
             </tr>
@@ -124,6 +128,10 @@ nav_order: 6
             <tr>
                 <td><span class="course-code">COS 598B*</span></td>
                 <td>Machine Behavior <span class="course-details">taught by Manoel Horta Ribeiro</span></td>
+            </tr>
+            <tr>
+                <td><span class="course-code">ECE 346‡</span></td>
+                <td>Intelligent Robotic Systems <span class="course-details">taught by Jaime Fernandez Fisac</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">ECE 524*</span></td>
@@ -159,10 +167,6 @@ nav_order: 6
                 <td>Probability and Stochastic Systems <span class="course-details">taught by Mark Cerenzia</span></td>
             </tr>
             <tr>
-                <td><span class="course-code">APC 571*‡</span></td>
-                <td>Applied Dynamical Systems <span class="course-details">taught by Clarence Rowley</span></td>
-            </tr>
-            <tr>
                 <td><span class="course-code">APC 588*</span></td>
                 <td>Tensor Calculus <span class="course-details">taught by Jeroen Tromp</span></td>
             </tr>
@@ -191,12 +195,16 @@ nav_order: 6
                 <td colspan="2"><h2>teaching assistant exp.</h2></td>
             </tr>
             <tr>
+                <td><span class="course-code">MAT 217</span></td>
+                <td>Honors Linear Algebra <span class="course-details">spring 2025</span></td>
+            </tr>
+            <tr>
                 <td><span class="course-code">COS 226</span></td>
                 <td>Data Structures & Algorithms <span class="course-details">spring 2025, fall 2025</span></td>
             </tr>
             <tr>
-                <td><span class="course-code">MAT 217</span></td>
-                <td>Honors Linear Algebra <span class="course-details">spring 2025</span></td>
+                <td><span class="course-code">COS 484 </span></td>
+                <td>Natural Language Processing <span class="course-details">spring 2026</span></td>
             </tr>
         </tbody>
     </table>
