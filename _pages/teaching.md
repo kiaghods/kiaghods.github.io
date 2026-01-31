@@ -99,7 +99,7 @@ nav_order: 6
             </tr>
             <tr>
                 <td><span class="course-code">COS 486‡</span></td>
-                <td>Introduction to Brain Emulation <span class="course-details">taught by Sebastian Seung</span></td>
+                <td>Brain Emulation <span class="course-details">taught by Sebastian Seung</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 487</span></td>
