@@ -28,7 +28,7 @@ latest_posts:
 i am a junior at princeton, studying cs + math. 
 
 some things i work on : 
-* language modeling, dynamical systems, spectral transformers @ <a href="https://www.minregret.com/">hazan minregret lab</a>, in collaboration with <a href="https://sites.google.com/view/gbrainprinceton/home">google deepmind princeton</a>, advised by prof. elad hazan
+* language modeling, dynamical systems, spectral transformers @ <a href="https://www.minregret.com/">hazan google brain lab</a>, advised by prof. elad hazan
 
 * in-context learning, mech interp of llms and vlms @  <a href="https://pli.princeton.edu/">princeton language and intelligence</a>, advised by profs. jon cohen, tom griffiths
 
