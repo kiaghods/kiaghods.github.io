@@ -196,15 +196,15 @@ nav_order: 6
             </tr>
             <tr>
                 <td><span class="course-code">MAT 217</span></td>
-                <td>Honors Linear Algebra <span class="course-details">spring 2025</span></td>
+                <td>Honors Linear Algebra <span class="course-details">s25</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 226</span></td>
-                <td>Data Structures & Algorithms <span class="course-details">spring 2025, fall 2025</span></td>
+                <td>Data Structures & Algorithms <span class="course-details">s25, f25, s26</span></td>
             </tr>
             <tr>
                 <td><span class="course-code">COS 484 </span></td>
-                <td>Natural Language Processing <span class="course-details">spring 2026</span></td>
+                <td>Natural Language Processing <span class="course-details">s26</span></td>
             </tr>
         </tbody>
     </table>
