@@ -2,210 +2,75 @@
 layout: page
 title: academics
 permalink: /academics
-description: 
+description:
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
-<section style="width:100%;max-width:800px;margin:auto;">
-    <h3>
-        honors
-    </h3>
-    <ul>
-        <li> Shapiro Prize for Academic Excellence (top 3% of underclassmen) </li>
-        <li> Tau Beta Pi (Early Inductee) </li>
-        <li> Neo Scholar Finalist </li>
-    </ul>
+<div class="academics-terminal">
 
-    <h3> 
-        coursework
-    </h3>
+<div class="acad-section">
+<h3 class="acad-heading">honors</h3>
+<div class="honors-list">
+<div class="honor-item"><span class="honor-arrow">&gt;</span> Shapiro Prize for Academic Excellence <span class="honor-detail">(top 3% of underclassmen)</span></div>
+<div class="honor-item"><span class="honor-arrow">&gt;</span> Tau Beta Pi <span class="honor-detail">(Early Inductee)</span></div>
+<div class="honor-item"><span class="honor-arrow">&gt;</span> Neo Scholar Finalist</div>
+</div>
+</div>
 
-    <p>
-        cool courses that I have taken at Princeton. <span style="font-style: italic;">* denotes graduate courses</span>. <span style="font-style: italic;"> ‡ denotes courses currently enrolled in</span>.
-    </p>
+<div class="acad-section">
+<h3 class="acad-heading">coursework</h3>
+<p class="acad-note"><span style="font-style:italic;">* graduate-level</span> · <span style="font-style:italic;">‡ currently enrolled</span></p>
 
-    <style>
-        .aligned-courses-table {
-            width: 100%;
-            margin: auto;
-            border-collapse: separate; /* Keeps border-spacing if desired, otherwise 'collapse' for no spacing */
-            border-spacing: 10px 10px; /* Adjust horizontal and vertical spacing */
-        }
+<div class="course-group">
+<h4 class="course-group-label">computer science</h4>
+<div class="course-item"><span class="course-code">COS 126 </span><span>Introduction to Computer Science <span class="course-prof">— Kevin Wayne</span></span></div>
+<div class="course-item"><span class="course-code">COS 217 </span><span>Programming Systems <span class="course-prof">— JP Singh, Christopher Moretti</span></span></div>
+<div class="course-item"><span class="course-code">COS 226 </span><span>Data Structures &amp; Algorithms <span class="course-prof">— Gillat Kol, Pedro Paredes, Mark Braverman</span></span></div>
+<div class="course-item"><span class="course-code">COS 350 </span><span>Ethics of Computing <span class="course-prof">— Aleksandra Korolova</span></span></div>
+<div class="course-item"><span class="course-code">COS 417‡</span><span>Operating Systems <span class="course-prof">— Mae Milano, Kevin Negy</span></span></div>
+<div class="course-item"><span class="course-code">COS 423 </span><span>Theory of Algorithms <span class="course-prof">— Robert Tarjan</span></span></div>
+<div class="course-item"><span class="course-code">COS 484 </span><span>Natural Language Processing <span class="course-prof">— Danqi Chen, Tri Dao, Vikram Ramaswamy</span></span></div>
+<div class="course-item"><span class="course-code">COS 486‡</span><span>Brain Emulation <span class="course-prof">— Sebastian Seung</span></span></div>
+<div class="course-item"><span class="course-code">COS 487 </span><span>Theory of Computation <span class="course-prof">— Gillat Kol</span></span></div>
+<div class="course-item"><span class="course-code">COS 511*‡</span><span>Theoretical Machine Learning <span class="course-prof">— Elad Hazan</span></span></div>
+<div class="course-item"><span class="course-code">COS 522*</span><span>Computational Complexity <span class="course-prof">— Gillat Kol</span></span></div>
+<div class="course-item"><span class="course-code">COS 568*‡</span><span>Systems and Machine Learning <span class="course-prof">— Kai Li</span></span></div>
+<div class="course-item"><span class="course-code">COS 585*</span><span>Information Theory and Applications <span class="course-prof">— Ran Raz</span></span></div>
+<div class="course-item"><span class="course-code">COS 598A*</span><span>AI Safety &amp; Alignment [sat-in] <span class="course-prof">— Peter Henderson</span></span></div>
+<div class="course-item"><span class="course-code">COS 598B*</span><span>Machine Behavior <span class="course-prof">— Manoel Horta Ribeiro</span></span></div>
+<div class="course-item"><span class="course-code">ECE 346‡</span><span>Intelligent Robotic Systems <span class="course-prof">— Jaime Fernandez Fisac</span></span></div>
+<div class="course-item"><span class="course-code">ECE 524*</span><span>Foundations of Reinforcement Learning <span class="course-prof">— Chi Jin</span></span></div>
+</div>
 
-        .aligned-courses-table th,
-        .aligned-courses-table td {
-            padding: 5px 0px; /* Adjust top/bottom padding for cell content */
-            vertical-align: top; /* Align content to the top of the cell */
-            font-size: 13pt; /* Adjusted base font size for all cells */
-        }
+<div class="course-group">
+<h4 class="course-group-label">mathematics</h4>
+<div class="course-item"><span class="course-code">MAT 215 </span><span>Real Analysis <span class="course-prof">— Samuel Pérez-Ayala, Charles Fefferman</span></span></div>
+<div class="course-item"><span class="course-code">MAT 217 </span><span>Honors Linear Algebra <span class="course-prof">— Jakub Witaszek</span></span></div>
+<div class="course-item"><span class="course-code">MAT 321 </span><span>Numerical Analysis and Scientific Computing <span class="course-prof">— Marc Aurèle Gilles</span></span></div>
+<div class="course-item"><span class="course-code">MAT 322 </span><span>Honors Differential Equations <span class="course-prof">— Hans Emil Oscar Mickelin</span></span></div>
+<div class="course-item"><span class="course-code">MAT 345 </span><span>Abstract Algebra <span class="course-prof">— Jakub Witaszek</span></span></div>
+<div class="course-item"><span class="course-code">ORF 309 </span><span>Probability and Stochastic Systems <span class="course-prof">— Mark Cerenzia</span></span></div>
+<div class="course-item"><span class="course-code">APC 588*</span><span>Tensor Calculus <span class="course-prof">— Jeroen Tromp</span></span></div>
+</div>
 
-        /* Define column widths for consistent alignment */
-        .aligned-courses-table colgroup col:nth-child(1) { width: 18%; } /* Course Code - adjusted width */
-        .aligned-courses-table colgroup col:nth-child(2) { width: 82%; } /* Course Name & Instructor/Term - adjusted width */
+<div class="course-group">
+<h4 class="course-group-label">notable science &amp; humanities</h4>
+<div class="course-item"><span class="course-code">NEU 437*</span><span>Systems Neuroscience <span class="course-prof">— Carlos Brody</span></span></div>
+<div class="course-item"><span class="course-code">PHY 105 </span><span>Advanced Physics: Mechanics <span class="course-prof">— Waseem Bakr</span></span></div>
+<div class="course-item"><span class="course-code">ECO 363 </span><span>Corporate Finance &amp; Financial Institutions <span class="course-prof">— Ernest Liu</span></span></div>
+<div class="course-item"><span class="course-code">PER 302 </span><span>Advanced Persian Reading I <span class="course-prof">— Amineh Mahallati</span></span></div>
+</div>
 
-        .aligned-courses-table h2 {
-            font-size: 1.5em; /* Adjust heading size within the table */
-            margin-top: 20px; /* Space above each section heading */
-            margin-bottom: 5px; /* Space below each section heading */
-            text-align: left; /* Align headings to the left */
-        }
+</div>
 
-        .course-code {
-            font-weight: bold;
-            white-space: nowrap; /* Prevent course codes from wrapping */
-        }
+<div class="acad-section">
+<h3 class="acad-heading">teaching</h3>
+<div class="course-group">
+<div class="course-item"><span class="course-code">MAT 217</span><span>Honors Linear Algebra <span class="course-prof">— S25</span></span></div>
+<div class="course-item"><span class="course-code">COS 226</span><span>Data Structures &amp; Algorithms <span class="course-prof">— S25, F25, S26</span></span></div>
+<div class="course-item"><span class="course-code">COS 484</span><span>Natural Language Processing <span class="course-prof">— S26</span></span></div>
+</div>
+</div>
 
-        .course-details {
-            font-size: 11pt; /* Slightly smaller for details, but still readable */
-            font-style: italic;
-        }
-    </style>
-
-    <table class="aligned-courses-table table-hover table-dark">
-        <colgroup>
-            <col> <col> </colgroup>
-        <tbody>
-            <tr>
-                <td colspan="2"><h2>computer science</h2></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 126</span></td>
-                <td>Introduction to Computer Science <span class="course-details">taught by Kevin Wayne</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 217</span></td>
-                <td>Programming Systems <span class="course-details">taught by JP Singh, Christopher Moretti</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 226</span></td>
-                <td>Data Structures & Algorithms <span class="course-details">taught by Gillat Kol, Pedro Paredes, Mark Braverman</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 350</span></td>
-                <td>Ethics of Computing <span class="course-details">taught by Aleksandra Korolova</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 417‡</span></td>
-                <td>Operating Systems <span class="course-details">taught by Mae Milano, Kevin Negy</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 423</span></td>
-                <td>Theory of Algorithms <span class="course-details">taught by Robert Tarjan</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 484</span></td>
-                <td>Natural Language Processing <span class="course-details">taught by Danqi Chen, Tri Dao, Vikram Ramaswamy</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 486‡</span></td>
-                <td>Brain Emulation <span class="course-details">taught by Sebastian Seung</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 487</span></td>
-                <td>Theory of Computation <span class="course-details">taught by Gillat Kol</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 511*‡</span></td>
-                <td>Theoretical Machine Learning <span class="course-details">taught by Elad Hazan</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 522*</span></td>
-                <td>Computational Complexity <span class="course-details">taught by Gillat Kol</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 568*‡</span></td>
-                <td>Systems and Machine Learning <span class="course-details">taught by Kai Li</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 585*</span></td>
-                <td>Information Theory and Applications <span class="course-details">taught by Ran Raz</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 598A*</span></td>
-                <td>AI Safety & Alignment [sat-in] <span class="course-details">taught by Peter Henderson</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 598B*</span></td>
-                <td>Machine Behavior <span class="course-details">taught by Manoel Horta Ribeiro</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">ECE 346‡</span></td>
-                <td>Intelligent Robotic Systems <span class="course-details">taught by Jaime Fernandez Fisac</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">ECE 524*</span></td>
-                <td>Foundations of Reinforcement Learning <span class="course-details">taught by Chi Jin</span></td>
-            </tr>
-
-
-            <tr>
-                <td colspan="2"><h2>mathematics</h2></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">MAT 215</span></td>
-                <td>Real Analysis <span class="course-details">taught by Samuel Pérez-Ayala, Charles Fefferman</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">MAT 217</span></td>
-                <td>Honors Linear Algebra <span class="course-details">taught by Jakub Witaszek</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">MAT 321</span></td>
-                <td>Numerical Analysis and Scientific Computing <span class="course-details">taught by Marc Aurèle Gilles</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">MAT 322</span></td>
-                <td>Honors Differential Equations <span class="course-details">taught by Hans Emil Oscar Mickelin</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">MAT 345</span></td>
-                <td>Abstract Algebra <span class="course-details">taught by Jakub Witaszek</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">ORF 309</span></td>
-                <td>Probability and Stochastic Systems <span class="course-details">taught by Mark Cerenzia</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">APC 588*</span></td>
-                <td>Tensor Calculus <span class="course-details">taught by Jeroen Tromp</span></td>
-            </tr>
-
-            <tr>
-                <td colspan="2"><h2>notable science and humanities</h2></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">NEU 437*</span></td>
-                <td>Systems Neuroscience <span class="course-details">taught by Carlos Brody</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">PHY 105</span></td>
-                <td>Advanced Physics: Mechanics <span class="course-details">taught by Waseem Bakr</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">ECO 363</span></td>
-                <td>Corporate Finance & Financial Institutions <span class="course-details">taught by Ernest Liu</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">PER 302</span></td>
-                <td>Advanced Persian Reading I <span class="course-details">taught by Amineh Mahallati</span></td>
-            </tr>
-
-            <tr>
-                <td colspan="2"><h2>teaching assistant exp.</h2></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">MAT 217</span></td>
-                <td>Honors Linear Algebra <span class="course-details">s25</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 226</span></td>
-                <td>Data Structures & Algorithms <span class="course-details">s25, f25, s26</span></td>
-            </tr>
-            <tr>
-                <td><span class="course-code">COS 484 </span></td>
-                <td>Natural Language Processing <span class="course-details">s26</span></td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+</div>

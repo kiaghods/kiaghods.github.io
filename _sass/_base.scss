@@ -223,7 +223,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 20%;
 
     .address {
       p {
@@ -244,6 +244,66 @@ ul.task-list input[type="checkbox"] {
       color: var(--global-theme-color);
       text-decoration: none;
     }
+  }
+}
+
+// About page — tone down section headers
+
+.post > article > h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-content {
+  clear: both;
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .about-section-label {
+    color: var(--global-theme-color);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 1.25rem;
+  }
+
+  .about-items {
+    padding-left: 0.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-item {
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+
+    &.dim {
+      color: var(--global-text-color-light);
+
+      a {
+        color: var(--global-text-color-light);
+
+        &:hover {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+
+  .about-arrow {
+    color: var(--global-theme-color);
+    font-weight: bold;
+    margin-right: 0.35rem;
+  }
+
+  .about-contact {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
   }
 }
 
@@ -407,23 +467,23 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
 
     a {
       img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 0.75rem;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
+        width: 2.25rem;
+        height: 2.5rem;
         margin-bottom: 0.5rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 2.25rem;
+          height: 2.25rem;
         }
       }
 
@@ -484,8 +544,8 @@ footer.fixed-bottom {
 
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     text-align: center;
   }
 
@@ -560,7 +620,7 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -701,13 +761,16 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 1em;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 1.5em;
     margin-bottom: 1em;
   }
 
@@ -720,11 +783,11 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
-    text-align: right;
+    display: none;
+  }
+
+  ol.bibliography:last-of-type li:last-child {
+    border-bottom: none;
   }
 
   ol.bibliography {
@@ -733,7 +796,9 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid var(--global-divider-color);
 
       .preview {
       }
@@ -746,6 +811,8 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
+          font-size: 0.75rem;
+          padding: 0.15rem 0.5rem;
 
           a {
             color: white;
@@ -764,9 +831,17 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 1rem;
+        line-height: 1.4;
+        color: var(--global-text-color);
       }
 
       .author {
+        font-size: 0.875rem;
+        color: var(--global-text-color-light);
+        margin-top: 0.3rem;
+        line-height: 1.5;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -779,6 +854,7 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          color: var(--global-text-color);
         }
 
         > span.more-authors {
@@ -793,15 +869,21 @@ footer.sticky-bottom {
         }
       }
 
+      .periodical {
+        font-size: 0.85rem;
+        margin-top: 0.15rem;
+      }
+
       .links {
+        margin-top: 0.5rem;
+
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          border: 1px solid var(--global-divider-color);
+          padding: 0.15rem 0.75rem;
           margin-left: 0;
+          font-size: 0.8rem;
+          border-radius: 3px;
 
           &:hover {
             color: var(--global-theme-color);
@@ -833,10 +915,6 @@ footer.sticky-bottom {
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
         transition: all 0.15s ease;
 
         p {
@@ -853,10 +931,6 @@ footer.sticky-bottom {
 
       .hidden.open {
         max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
 
@@ -1342,6 +1416,166 @@ ninja-keys::part(ninja-input-wrapper) {
   .arrow:before {
     border-bottom-color: var(--global-divider-color);
   }
+}
+
+// Projects (terminal-style)
+
+.projects-terminal {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.project-category {
+  margin-bottom: 2rem;
+}
+
+.category-label {
+  color: var(--global-theme-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.project-entry {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+.project-arrow {
+  color: var(--global-theme-color);
+  margin-right: 0.75rem;
+  margin-top: 0.15rem;
+  flex-shrink: 0;
+  font-size: 0.9rem;
+}
+
+.project-arrow.award-arrow {
+  color: #e5c07b;
+}
+
+.project-arrow.bio-arrow {
+  color: #c678dd;
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-name {
+  color: var(--global-text-color);
+}
+
+.project-desc {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+.project-links {
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+
+  a {
+    color: var(--global-theme-color);
+  }
+}
+
+.project-award {
+  color: #e5c07b;
+  font-size: 0.85rem;
+  margin-top: 0.15rem;
+}
+
+// Academics (terminal-style)
+
+.academics-terminal {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.acad-section {
+  margin-bottom: 2.5rem;
+}
+
+.acad-heading {
+  color: var(--global-theme-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.acad-note {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 1.25rem;
+}
+
+.honors-list {
+  padding-left: 0.5rem;
+}
+
+.honor-item {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.honor-arrow {
+  color: var(--global-theme-color);
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.honor-detail {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+}
+
+.course-group {
+  margin-bottom: 1.75rem;
+}
+
+.course-group-label {
+  color: var(--global-text-color);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.course-item {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.course-code {
+  font-weight: bold;
+  white-space: nowrap;
+  color: var(--global-theme-color);
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+.course-name {
+  color: var(--global-text-color);
+}
+
+.course-prof {
+  color: var(--global-text-color-light);
+  font-size: 0.8rem;
+}
+
+.ta-list {
+  padding-left: 0;
 }
 
 // highlight-search-term

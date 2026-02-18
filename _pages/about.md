@@ -5,11 +5,9 @@ permalink: /
 subtitle: cs + math @ princeton
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  # image_circular: false # crops the image to make it circular
-  more_info: >
-   <tt><span style="font-size:80%;"> kia.ghods [at] princeton (dot) edu </span></tt>
+  image_circular: true
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,17 +23,24 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-i am a junior at princeton, studying cs + math. 
+<div class="about-content">
 
-some things i work on : 
-* language modeling, dynamical systems, spectral transformers @ <a href="https://www.minregret.com/">hazan minregret lab</a>, advised by prof. elad hazan
+<p>i am a junior at princeton studying cs + math.</p>
 
-* in-context learning, mech interp of llms and vlms @  <a href="https://pli.princeton.edu/">princeton language and intelligence</a>, advised by profs. jon cohen, tom griffiths
+<h4 class="about-section-label">currently</h4>
+<div class="about-items">
+<div class="about-item"><span class="about-arrow">&gt;</span> language modeling, dynamical systems, spectral transformers @ <a href="https://www.minregret.com/">hazan minregret lab</a></div>
+<div class="about-item"><span class="about-arrow">&gt;</span> $\nabla$ <a href="https://gradient.build/">gradient</a></div>
+<div class="about-item"><span class="about-arrow">&gt;</span> co-pres. of our <a href="https://princeton.acm.org">acm chapter</a></div>
+</div>
 
-* $\nabla$ <a href="https://gradient.build/"> gradient </a>
+<h4 class="about-section-label">previously</h4>
+<div class="about-items">
+<div class="about-item dim"><span class="about-arrow">&gt;</span> <a href="https://pli.princeton.edu/">cocosci lab</a>, advised by profs. cohen and griffiths</div>
+<div class="about-item dim"><span class="about-arrow">&gt;</span> interned at hillspire</div>
+<div class="about-item dim"><span class="about-arrow">&gt;</span> interned at <a href="https://www.astralis.sh/">astralis</a></div>
+</div>
 
-* co-pres. of our <a href="https://princeton.acm.org">acm chapter</a>, helping host a few machine learning reading groups. 
+<p class="about-contact">contact: <code>[x] at princeton dot edu</code> where <code>[x] = kia.ghods</code></p>
 
-prev: interned at hillspire; worked at early-stage startups (e.g., <a href="https://www.astralis.sh/">astralis</a>)
-
-contact: `[x] at princeton dot edu` where `[x] = kia.ghods`
+</div>

@@ -10,60 +10,113 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="projects">
+<div class="projects-terminal">
 
-<h4>some machine learning</h4>
-<ul>
-<li> 
-        <strong>[Re]FlashAttention</strong> - Triton Implementation of FlashAttention1 with Multi-Query Attention (MQA). <a href="https://github.com/kiaghods/FlashAttentionTriton_NLP"><i class="fa fa-github" style="font-size:18px"></i></a> [<a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttention.pdf" target="_blank">White Paper</a>] [<a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttentionPoster.pdf" target="_blank">Poster</a>]
-</li>
+<div class="project-category">
+<h4 class="category-label">machine learning</h4>
 
-<li>
-        <strong>LLM Homogenization in Creative Writing</strong> - Investigated claims of LLM homogenization in creative writing; our work shows that with sufficient initial context, LLM-generated text corpora achieve stylistic and semantic diversity on par with human writers. [<a href="https://kiaghods.com/assets/pdfs/LLMHomogenization.pdf" target="_blank">White Paper</a>]
-</li>
+<div class="project-entry">
+<span class="project-arrow">▸</span>
+<div class="project-content">
+<strong class="project-name">[Re] FlashAttention</strong> <span class="project-desc">— Triton implementation of FlashAttention-1 with Multi-Query Attention (MQA).</span>
+<div class="project-links">
+<a href="https://github.com/kiaghods/FlashAttentionTriton_NLP">code</a> · <a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttention.pdf" target="_blank">paper</a> · <a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttentionPoster.pdf" target="_blank">poster</a>
+</div>
+</div>
+</div>
 
-<li>
-         <strong>Astralis</strong> - Contributed to an early-stage startup using AI and geospatial data to optimize real estate development and demand forecasting. Built intelligent document ingestion pipelines (RAG) using Python, LLMs, and ML clustering with automated metrics and async workflows for scalable content organization. <a href="https://github.com/pranav270-create/ingest" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" style="font-size:18px"></i></a> <a href="https://www.astralis.sh/" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link" style="font-size:18px"></i></a>
-</li>
+<div class="project-entry">
+<span class="project-arrow">▸</span>
+<div class="project-content">
+<strong class="project-name">LLM Homogenization</strong> <span class="project-desc">— With sufficient initial context, LLM-generated text corpora achieve stylistic and semantic diversity on par with human writers.</span>
+<div class="project-links">
+<a href="https://kiaghods.com/assets/pdfs/LLMHomogenization.pdf" target="_blank">paper</a>
+</div>
+</div>
+</div>
 
-</ul>
+<div class="project-entry">
+<span class="project-arrow">▸</span>
+<div class="project-content">
+<strong class="project-name">Astralis</strong> <span class="project-desc">— RAG pipelines for geospatial real estate AI. Built intelligent document ingestion using Python, LLMs, and ML clustering.</span>
+<div class="project-links">
+<a href="https://github.com/pranav270-create/ingest">code</a> · <a href="https://www.astralis.sh/">site</a>
+</div>
+</div>
+</div>
 
-<h4>more kernels and numerics</h4>
-<ul>
+</div>
 
-<li>
- <strong>[Re]Spectral Methods</strong> - An implementation of "A Fast and Well-Conditioned Spectral Method" (Olver and Townsend, 2013). <a href="https://github.com/kiaghods/spectral-method"><i class="fa fa-github" style="font-size:18px"></i></a> [<a href="https://kiaghods.com/assets/pdfs/[Re]SpectralMethod.pdf" target="_blank">White Paper</a>] 
-</li>
+<div class="project-category">
+<h4 class="category-label">kernels & numerics</h4>
 
-<li>
- <strong> GPU MODE! </strong> - wrote some kernels in Triton for <a href="https://www.gpumode.com/v2/home" target="_blank">GPU MODE</a> competitions
-</li>
+<div class="project-entry">
+<span class="project-arrow">▸</span>
+<div class="project-content">
+<strong class="project-name">[Re] Spectral Methods</strong> <span class="project-desc">— Ultraspherical spectral solver from Olver and Townsend (2013).</span>
+<div class="project-links">
+<a href="https://github.com/kiaghods/spectral-method">code</a> · <a href="https://kiaghods.com/assets/pdfs/[Re]SpectralMethod.pdf" target="_blank">paper</a>
+</div>
+</div>
+</div>
 
-<li>
-    <strong>Butterfly Matrix Kernel</strong> – Optimized implementation of butterfly matrix multiplication using Triton, enabling fast structured transforms for deep learning workloads. <a href="https://github.com/kiaghods/butterfly_matrix_kernel"><i class="fa fa-github" style="font-size:18px"></i></a>
-</li>
+<div class="project-entry">
+<span class="project-arrow">▸</span>
+<div class="project-content">
+<strong class="project-name">GPU MODE</strong> <span class="project-desc">— Competition Triton kernels for <a href="https://www.gpumode.com/v2/home">GPU MODE</a>.</span>
+</div>
+</div>
 
-</ul>
+<div class="project-entry">
+<span class="project-arrow">▸</span>
+<div class="project-content">
+<strong class="project-name">Butterfly Matrix Kernel</strong> <span class="project-desc">— Structured butterfly matrix multiplication transforms in Triton.</span>
+<div class="project-links">
+<a href="https://github.com/kiaghods/butterfly_matrix_kernel">code</a>
+</div>
+</div>
+</div>
 
-<h4>hacks</h4>
-<ul>
-<li>
-        <strong>Propagation of In-Context Scheming in Multi-Agent Systems</strong> - Designed experiments to measure how corrupted instructions spread through networks of language models, demonstrating vulnerability of small models to influence from both peers and higher-capability models. Awarded 2nd place at Anthropic Alignment Hackathon (2025).
-</li>
+</div>
 
-<li>
-        <strong>SearchDestroy</strong> - Robust multi-drone search algorithm (DARP + heuristics) for area sweeping, handling drone loss and online path re-computation. Physics simulation & visualization using AirSim. Awarded 2nd place (100+ participants) at AGI House Robotics Hackathon (2024). <a href="https://github.com/Astoria-ni/drone-hackathon"><i class="fa fa-github" style="font-size:18px"></i></a>
-</li>
+<div class="project-category">
+<h4 class="category-label">hackathons</h4>
 
-</ul>
+<div class="project-entry">
+<span class="project-arrow award-arrow">▸</span>
+<div class="project-content">
+<strong class="project-name">In-Context Scheming</strong> <span class="project-desc">— Multi-agent LLM corruption propagation experiments.</span>
+<div class="project-award">2nd place, Anthropic Alignment Hackathon 2025</div>
+</div>
+</div>
 
-<h4>bio/chem/neuro</h4>
-<ul>
-<li> 
-  <strong> Development of covalent binders of c-Myc mRNA </strong> - I synthesized covalent binders to target cancer-linked c-Myc RNA and repeated genetic patterns (i.e. r(CAG) expansion). This work was conducted at the <a href='https://disney.scripps.ufl.edu/'> Disney Lab </a> in the Department of Chemistry at the <a href='https://wertheim.scripps.ufl.edu/'> UF Scripps Research Institute </a>  and presented at the <a href='https://mpfi.org/'> Max Planck Florida Institute for Neuroscience </a>. [<a href="https://kiaghods.com/assets/pdfs/DisneyLab_Abstract_KG.pdf" target="_blank">Abstract</a>]
-</li>
-</ul>
+<div class="project-entry">
+<span class="project-arrow award-arrow">▸</span>
+<div class="project-content">
+<strong class="project-name">SearchDestroy</strong> <span class="project-desc">— Multi-drone area sweep with online re-planning via DARP + heuristics.</span>
+<div class="project-award">2nd place, AGI House Robotics Hackathon 2024</div>
+<div class="project-links">
+<a href="https://github.com/Astoria-ni/drone-hackathon">code</a>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="project-category">
+<h4 class="category-label">bio / chem / neuro</h4>
+
+<div class="project-entry">
+<span class="project-arrow bio-arrow">▸</span>
+<div class="project-content">
+<strong class="project-name">c-Myc mRNA Binders</strong> <span class="project-desc">— Covalent binders for cancer-linked RNA at <a href='https://disney.scripps.ufl.edu/'>Disney Lab</a> (UF Scripps). Presented at <a href='https://mpfi.org/'>Max Planck Florida</a>.</span>
+<div class="project-links">
+<a href="https://kiaghods.com/assets/pdfs/DisneyLab_Abstract_KG.pdf" target="_blank">abstract</a>
+</div>
+</div>
+</div>
+
+</div>
 
 </div>
