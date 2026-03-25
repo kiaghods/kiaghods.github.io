@@ -25,7 +25,7 @@ latest_posts:
 
 <div class="about-content">
 
-<p>i am a junior at princeton studying cs + math.</p>
+<p>I am a junior at princeton studying cs + math.</p>
 
 <h4 class="about-section-label">currently</h4>
 <div class="about-items">
