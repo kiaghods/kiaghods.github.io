@@ -19,6 +19,16 @@ horizontal: false
 <div class="project-entry">
 <span class="project-arrow">▸</span>
 <div class="project-content">
+<strong class="project-name">micrograd-rust</strong> <span class="project-desc">— Scalar autograd engine and neural net library in Rust. 1-2 OOM faster than Karpathy's Python. Published as a drop-in PyPI package via PyO3.</span>
+<div class="project-links">
+<a href="https://github.com/kiaghods/micrograd-rust">code</a> · <a href="https://pypi.org/project/micrograd-rust/">pypi</a>
+</div>
+</div>
+</div>
+
+<div class="project-entry">
+<span class="project-arrow">▸</span>
+<div class="project-content">
 <strong class="project-name">[Re] FlashAttention</strong> <span class="project-desc">— Triton implementation of FlashAttention-1 with Multi-Query Attention (MQA).</span>
 <div class="project-links">
 <a href="https://github.com/kiaghods/FlashAttentionTriton_NLP">code</a> · <a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttention.pdf" target="_blank">paper</a> · <a href="https://kiaghods.com/assets/pdfs/[Re]FlashAttentionPoster.pdf" target="_blank">poster</a>
