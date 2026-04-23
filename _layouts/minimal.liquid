@@ -27,7 +27,7 @@
       font-weight: 400;
       line-height: 1.6;
       color: #1c1c1c;
-      background: #f7f3e9;
+      background: #ffffff;
       max-width: 38em;
       margin: 3.5em auto 5em;
       padding: 0 1.25em;
@@ -309,6 +309,25 @@
       margin: 3em 0;
     }
 
+    /* Barnsley fern (chaos-game IFS) */
+    .fern-fig {
+      margin: 3.5em auto 1em;
+      text-align: center;
+    }
+    .fern-fig canvas {
+      display: block;
+      margin: 0 auto;
+      background: transparent;
+      cursor: pointer;
+    }
+    .fern-fig figcaption {
+      margin-top: 0.5em;
+      font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.72em;
+      color: #8a8278;
+      letter-spacing: 0.04em;
+    }
+
     details.papers {
       margin-top: 2.8em;
     }
@@ -469,6 +488,116 @@
       Array.prototype.forEach.call(document.querySelectorAll('ul.qdiffuse'), setupList);
     })();
     */
+
+    /* Barnsley fern — chaos-game IFS, triangle-wave oscillation between 0 and N points */
+    (function() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var canvas = document.querySelector('canvas.fern');
+      if (!canvas) return;
+
+      var cssW = 240, cssH = 360;
+      canvas.width = cssW;
+      canvas.height = cssH;
+      canvas.style.width = cssW + 'px';
+      canvas.style.height = cssH + 'px';
+      var ctx = canvas.getContext('2d');
+      var imageData = ctx.createImageData(cssW, cssH);
+      var pixels = imageData.data;
+
+      var N = 70000;
+      var perFrame = 180;
+      var pxCache = new Int16Array(N);
+      var pyCache = new Int16Array(N);
+      var density = new Uint16Array(cssW * cssH);
+
+      // Precompute point sequence once.
+      (function() {
+        var x = 0, y = 0;
+        for (var i = 0; i < N; i++) {
+          var r = Math.random(), nx, ny;
+          if (r < 0.01) {
+            nx = 0; ny = 0.16 * y;
+          } else if (r < 0.86) {
+            nx = 0.85 * x + 0.04 * y;
+            ny = -0.04 * x + 0.85 * y + 1.6;
+          } else if (r < 0.93) {
+            nx = 0.20 * x - 0.26 * y;
+            ny = 0.23 * x + 0.22 * y + 1.6;
+          } else {
+            nx = -0.15 * x + 0.28 * y;
+            ny = 0.26 * x + 0.24 * y + 0.44;
+          }
+          x = nx; y = ny;
+          pxCache[i] = Math.floor(cssW / 2 + x * (cssW / 5.4));
+          pyCache[i] = Math.floor(cssH - y * (cssH / 10.8));
+        }
+      })();
+
+      // Alpha lookup for density D: cumulative source-over with base 0.55 per plot.
+      var alphaTable = new Uint8Array(256);
+      for (var k = 0; k < 256; k++) {
+        alphaTable[k] = k === 0 ? 0 : ((1 - Math.pow(0.45, k)) * 255) | 0;
+      }
+
+      var currentCount = 0;
+      var direction = 1;
+      var generation = 0;
+
+      function render() {
+        density.fill(0);
+        for (var i = 0; i < currentCount; i++) {
+          var px = pxCache[i], py = pyCache[i];
+          if (px < 0 || px >= cssW || py < 0 || py >= cssH) continue;
+          density[py * cssW + px]++;
+        }
+        for (var idx = 0, plen = density.length; idx < plen; idx++) {
+          var d = density[idx];
+          var p = idx << 2;
+          if (d === 0) {
+            pixels[p + 3] = 0;
+          } else {
+            pixels[p] = 42;
+            pixels[p + 1] = 74;
+            pixels[p + 2] = 48;
+            pixels[p + 3] = d < 256 ? alphaTable[d] : 255;
+          }
+        }
+        ctx.putImageData(imageData, 0, 0);
+      }
+
+      function startLoop() {
+        var myGen = ++generation;
+
+        function tick() {
+          if (myGen !== generation) return;
+          if (direction > 0) {
+            currentCount = Math.min(N, currentCount + perFrame);
+            if (currentCount >= N) direction = -1;
+          } else {
+            currentCount = Math.max(0, currentCount - perFrame);
+            if (currentCount <= 0) direction = 1;
+          }
+          render();
+          requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      }
+
+      if ('IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              startLoop();
+              obs.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.2 });
+        obs.observe(canvas);
+      } else {
+        startLoop();
+      }
+
+    })();
 
     /* Attention heatmap — wraps each word in a span with a pseudo-attention weight */
     (function() {
