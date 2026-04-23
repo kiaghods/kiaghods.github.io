@@ -107,7 +107,7 @@ horizontal: false
 <strong class="project-name">SearchDestroy</strong> <span class="project-desc">— Multi-drone area sweep with online re-planning via DARP + heuristics.</span>
 <div class="project-award">2nd place, AGI House Robotics Hackathon 2024</div>
 <div class="project-links">
-<a href="https://github.com/Astoria-ni/drone-hackathon">code</a>
+<a href="https://github.com/kiaghods/Drone-Hackathon">code</a>
 </div>
 </div>
 </div>

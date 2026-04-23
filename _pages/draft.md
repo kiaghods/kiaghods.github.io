@@ -32,7 +32,8 @@ noindex: true
 </div>
 
 
-<p class="lede">I always enjoy talking to new people, and am excited to hear new perspectives and help those who desire; feel free to reach me via email: <code>kia.ghods [at] princeton.edu</code> </p>
+<p class="lede">I always enjoy talking to new people, and am excited to hear new perspectives and help those who desire; feel free to reach me via email:<br>
+<code style="white-space: nowrap">kia.ghods [at] princeton.edu</code></p>
 
 
 ## currently on my mind
@@ -41,7 +42,6 @@ noindex: true
 <li>What is preventing us from having robotic models running on edge hardware instead of datacenters?</li>
 <li>Is there a way to probe a small model to consistently figure out if it will scale well?</li>
 <li>Is it an inherent function of capitalism to always have an exploited underclass? </li>
-<li>  </li>
 </ul>
 
 <details class="papers">
@@ -93,7 +93,7 @@ noindex: true
 <li><a href="https://github.com/kiaghods/butterfly_matrix_kernel">Why is the FFT so fast, and does its trick work for other kinds of matrices?</a></li>
 <li><a href="https://github.com/kiaghods/spectral-method">How does a computer solve an equation it has never seen?</a></li>
 <li><a href="https://arxiv.org/abs/2411.00238">When a machine sees two red balls and a blue one, does it know which is which?</a></li>
-<li><a href="https://github.com/Astoria-ni/drone-hackathon">How does a pile of drones decide who looks where?</a></li>
+<li><a href="https://github.com/kiaghods/Drone-Hackathon">How does a pile of drones decide who looks where?</a></li>
 <li><a href="https://www.mdpi.com/2227-7390/12/16/2583">When two strains of a virus share one body, do they fight each other -- and do real patients agree with what the math says?</a></li>
 <li><a href="https://www.aimspress.com/article/doi/10.3934/mbe.2023865">What is a virus actually doing, hour by hour, inside one person?</a></li>
 <li><a href="/assets/pdfs/DisneyLab_Abstract_KG.pdf">Can cancer be turned off by gluing a small molecule to the right piece of RNA?</a></li>
@@ -102,5 +102,17 @@ noindex: true
 ## lately
 
 <ul class="lately">
-<li> </li>
+<li>The Celestial Hierarchy (Dionysius the Areopagite)</li>
+<li>All of Statistics (Wasserman)</li>
+<li>Brave New World (Huxley)</li>
+<li>Online Control (Hazan)</li>
+<li>The Man Who Solved the Market (Zuckerman)</li>
+<li>AI Snake Oil (Narayanan & Kapoor)</li>
 </ul>
+
+<figure class="fern-fig">
+<a href="https://en.wikipedia.org/wiki/Barnsley_fern" target="_blank" rel="noopener" title="learn about the Barnsley fern">
+<canvas class="fern" aria-hidden="true"></canvas>
+</a>
+<figcaption>barnsley fern</figcaption>
+</figure>
