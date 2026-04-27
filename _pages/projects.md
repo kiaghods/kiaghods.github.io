@@ -3,8 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Amalgamation of various short and long-term undertakings.
-nav: true
-nav_order: 3
+nav: false
 display_categories: [work, fun]
 horizontal: false
 ---
