@@ -33,18 +33,18 @@ nav: false
 <div class="course-row"><span class="course-code">COS 217</span> Programming Systems <span class="course-prof">— taught by JP Singh, Christopher Moretti, Kevin Negy</span></div>
 <div class="course-row"><span class="course-code">COS 226</span> Data Structures &amp; Algorithms <span class="course-prof">— taught by Gillat Kol, Pedro Paredes, Mark Braverman</span></div>
 <div class="course-row"><span class="course-code">COS 350</span> Ethics of Computing <span class="course-prof">— taught by Aleksandra Korolova</span></div>
-<div class="course-row"><span class="course-code">COS 417‡</span> Operating Systems <span class="course-prof">— taught by Mae Milano, Kevin Negy</span></div>
+<div class="course-row"><span class="course-code">COS 417</span> Operating Systems <span class="course-prof">— taught by Mae Milano, Kevin Negy</span></div>
 <div class="course-row"><span class="course-code">COS 423</span> Theory of Algorithms <span class="course-prof">— taught by Robert Tarjan</span></div>
 <div class="course-row"><span class="course-code">COS 484</span> Natural Language Processing <span class="course-prof">— taught by Danqi Chen, Tri Dao, Vikram Ramaswamy</span></div>
-<div class="course-row"><span class="course-code">COS 486‡</span> Brain Emulation <span class="course-prof">— taught by Sebastian Seung</span></div>
+<div class="course-row"><span class="course-code">COS 486</span> Brain Emulation [sat-in] <span class="course-prof">— taught by Sebastian Seung</span></div>
 <div class="course-row"><span class="course-code">COS 487</span> Theory of Computation <span class="course-prof">— taught by Gillat Kol</span></div>
-<div class="course-row"><span class="course-code">COS 511*‡</span> Theoretical Machine Learning <span class="course-prof">— taught by Elad Hazan</span></div>
+<div class="course-row"><span class="course-code">COS 511*</span> Theoretical Machine Learning <span class="course-prof">— taught by Elad Hazan</span></div>
 <div class="course-row"><span class="course-code">COS 522*</span> Computational Complexity <span class="course-prof">— taught by Gillat Kol</span></div>
-<div class="course-row"><span class="course-code">COS 568*‡</span> Systems and Machine Learning <span class="course-prof">— taught by Kai Li</span></div>
+<div class="course-row"><span class="course-code">COS 568*</span> Systems and Machine Learning <span class="course-prof">— taught by Kai Li</span></div>
 <div class="course-row"><span class="course-code">COS 585*</span> Information Theory and Applications <span class="course-prof">— taught by Ran Raz</span></div>
 <div class="course-row"><span class="course-code">COS 598A*</span> AI Safety &amp; Alignment [sat-in] <span class="course-prof">— taught by Peter Henderson</span></div>
 <div class="course-row"><span class="course-code">COS 598B*</span> Machine Behavior <span class="course-prof">— taught by Manoel Horta Ribeiro</span></div>
-<div class="course-row"><span class="course-code">ECE 346‡</span> Intelligent Robotic Systems <span class="course-prof">— taught by Jaime Fernandez Fisac</span></div>
+<div class="course-row"><span class="course-code">ECE 346</span> Intelligent Robotic Systems <span class="course-prof">— taught by Jaime Fernandez Fisac</span></div>
 <div class="course-row"><span class="course-code">ECE 524*</span> Foundations of Reinforcement Learning <span class="course-prof">— taught by Chi Jin</span></div>
 </div>
 
