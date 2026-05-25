@@ -46,35 +46,7 @@ description: kia ghods.
 <details class="papers">
 <summary>papers</summary>
 
-<div class="paper">
-<div class="paper-title"><a href="https://arxiv.org/abs/2603.10885">Continuous Diffusion Transformers for Designing Synthetic Regulatory Elements</a></div>
-<div class="paper-authors">Jonathan Liu*, <strong>Kia Ghods*</strong></div>
-<div class="paper-venue">Gen² Workshop @ ICLR · 2026</div>
-</div>
-
-<div class="paper">
-<div class="paper-title"><a href="https://arxiv.org/abs/2509.25142">Visual serial processing deficits explain divergences in human and VLM reasoning</a></div>
-<div class="paper-authors">Nicholas Budny*, <strong>Kia Ghods*</strong>, Declan Campbell*, Raja Marjieh, Amogh Joshi, Sreejan Kumar, Jonathan D. Cohen†, Taylor W. Webb†, Thomas L. Griffiths†</div>
-<div class="paper-venue">Under Review · 2025</div>
-</div>
-
-<div class="paper">
-<div class="paper-title"><a href="https://arxiv.org/abs/2411.00238">Understanding the Limits of Vision Language Models Through the Lens of the Binding Problem</a></div>
-<div class="paper-authors">Declan Campbell, Sunayana Rane, Tyler Giallanza, Nicolò De Sabbata, <strong>Kia Ghods</strong>, Amogh Joshi, Alexander Ku, Steven M. Frankland, Thomas L. Griffiths†, Jonathan D. Cohen†, Taylor Webb</div>
-<div class="paper-venue">NeurIPS · 2024</div>
-</div>
-
-<div class="paper">
-<div class="paper-title"><a href="https://www.mdpi.com/2227-7390/12/16/2583">Validation of a Multi-Strain HIV Within-Host Model with AIDS Clinical Studies</a></div>
-<div class="paper-authors">Necibe Tuncer, <strong>Kia Ghods</strong>, Vivek Sreejithkumar, Adin Garbowit, Mark Zagha, Maia Martcheva</div>
-<div class="paper-venue">Mathematics · 2024</div>
-</div>
-
-<div class="paper">
-<div class="paper-title"><a href="https://www.aimspress.com/article/doi/10.3934/mbe.2023865">Modeling the interplay between albumin-globulin metabolism and HIV infection</a></div>
-<div class="paper-authors">Vivek Sreejithkumar, <strong>Kia Ghods</strong>, Tharusha Bandara, Maia Martcheva, Necibe Tuncer</div>
-<div class="paper-venue">Mathematical Biosciences and Engineering · 2023</div>
-</div>
+{% bibliography --template bib_minimal --group_by none %}
 
 </details>
 
